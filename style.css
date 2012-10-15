@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  position:relative;
+  z-index:1;
+  font-family:sans-serif;
+}
+
+header{
+  width:960px;
+}
+
+header h1{
+  width:auto;
+  border-top:3px solid gray;
+}
+
+#headerCanvas{
+  width:960px;
+  height:100px;
+}
+#backgroundCanvas{
+  width:960px;
+  height:400px;
+  background:green;
+  position:fixed;
+  top:0;
+  left:50%;
+  margin: 0 -480px;
+  z-index:0;
+}
